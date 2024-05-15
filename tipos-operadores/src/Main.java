@@ -22,6 +22,7 @@ public class Main {
         String nomeDaLinguagem = "Linguagem" + " " + "Java";
         System.out.println(nomeDaLinguagem);
 
+        //Concatenação de diferentes tipos de dados
         String concatenacao = "";
 
         concatenacao = 1 + 1 + 1 + "1";
@@ -34,5 +35,10 @@ public class Main {
         System.out.println(concatenacao);
         concatenacao = "1" + (1 + 1 + 1);
         System.out.println(concatenacao);
+
+        // Operador Ternário
+        String s =  idade >= 18 ? "Maior de Idade" : "Menor de idade";
+
+        System.out.println(s);
     }
 }
